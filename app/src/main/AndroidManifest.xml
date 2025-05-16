@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.skincancer">
+
+    <!-- Camera Feature (Optional) -->
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/security"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:targetApi="n">
+
+        <!-- Splash Activity (Launcher) -->
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Authentication Activities -->
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="true" />
+
+        <!-- Main Activity -->
+        <activity android:name=".activities.MainActivity2" />
+
+        <!-- Skin Cancer Activities -->
+        <activity android:name=".activities.Skin.Actinic" />
+        <activity android:name=".activities.Skin.Basal" />
+        <activity android:name=".activities.Skin.Dermatofibroma" />
+        <activity android:name=".activities.Skin.Melanoma" />
+        <activity android:name=".activities.Skin.Nevus" />
+        <activity android:name=".activities.Skin.Pigmented" />
+        <activity android:name=".activities.Skin.Seborrheic" />
+        <activity android:name=".activities.Skin.Squamous" />
+        <activity android:name=".activities.Skin.Vascular" />
+
+    </application>
+
+</manifest>

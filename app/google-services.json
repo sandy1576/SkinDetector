@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "647777777559",
+    "project_id": "skindisease-c92db",
+    "storage_bucket": "skindisease-c92db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647777777559:android:80d4fea228ea736ca776d2",
+        "android_client_info": {
+          "package_name": "com.example.skincancer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX4S-foqAXVygdaTGvAtZ7nb6XlN-YCVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

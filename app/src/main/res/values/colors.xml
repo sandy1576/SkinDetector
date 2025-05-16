@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+
+    <!-- Secondary Colors -->
+    <color name="blue">#FF2196F3</color>
+    <color name="green">#FF4CAF50</color>
+    <color name="yellow">#FFFFEB3B</color>
+    <color name="orange">#FFFF9800</color>
+    <color name="purple">#FF9C27B0</color>
+    <color name="pink">#FFE91E63</color>
+
+    <!-- Gray Shades -->
+    <color name="gray_light">#FFBDBDBD</color>
+    <color name="gray_medium">#FF757575</color>
+    <color name="gray_dark">#FF424242</color>
+
+    <!-- Accent Colors -->
+    <color name="teal">#FF009688</color>
+    <color name="lime">#FFCDDC39</color>
+    <color name="amber">#FFFFC107</color>
+
+    <!-- Custom Colors -->
+    <color name="primary">#FF6200EE</color>
+    <color name="primary_variant">#FF3700B3</color>
+    <color name="secondary">#FF03DAC5</color>
+    <color name="secondary_variant">#FF018786</color>
+
+    <!-- Background Colors -->
+    <color name="background_light">#FFF5F5F5</color>
+    <color name="background_dark">#FF303030</color>
+    <color name="surface_light">#FFFFFFFF</color>
+    <color name="surface_dark">#FF424242</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary_light">#FF000000</color>
+    <color name="text_secondary_light">#80000000</color>
+    <color name="text_primary_dark">#FFFFFFFF</color>
+    <color name="text_secondary_dark">#B3FFFFFF</color>
+</resources>

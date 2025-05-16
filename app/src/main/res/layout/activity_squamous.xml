@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:scrollbars="none"
+    tools:context=".activities.Skin.Squamous">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/squamous_cell"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/background_gradient">
+
+            <LinearLayout
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/white_circle"
+                    android:src="@drawable/dignosis"
+                    android:padding="12dp"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:textAlignment="textStart"
+                    android:gravity="center"
+                    android:background="@drawable/half_rounded2"
+                    android:paddingTop="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="8dp"
+                    android:paddingBottom="16dp"
+                    android:letterSpacing="0.02"
+                    android:text="@string/squa_Prevention"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    tools:ignore="RtlCompat" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nevus_prevent1"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                android:justificationMode="inter_word"
+                tools:targetApi="o" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:id="@+id/one"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/white_circle"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:src="@drawable/coronavirus"/>
+
+                <TextView
+                    android:id="@+id/treat_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_toEndOf="@id/one"
+                    android:text="@string/basal_prevent1"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@id/one"
+                    android:justificationMode="inter_word"
+                    tools:targetApi="o"/>
+
+                <View
+                    android:id="@+id/view_2"
+                    android:layout_width="1.5dp"
+                    android:layout_height="36dp"
+                    android:layout_below="@id/one"
+                    android:layout_marginStart="35dp"
+                    android:background="@color/white"/>
+
+                <ImageView
+                    android:id="@+id/two"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/white_circle"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:layout_below="@id/view_2" />
+
+                <TextView
+                    android:id="@+id/treat_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_toEndOf="@id/two"
+                    android:text="@string/basal_prevent2"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@id/two"
+                    android:justificationMode="inter_word"
+                    tools:targetApi="o"/>
+
+                <View
+                    android:id="@+id/view_3"
+                    android:layout_width="1.5dp"
+                    android:layout_height="36dp"
+                    android:layout_below="@id/two"
+                    android:layout_marginStart="35dp"
+                    android:background="@color/white"/>
+
+                <ImageView
+                    android:id="@+id/three"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/white_circle"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:layout_below="@id/view_3" />
+
+                <TextView
+                    android:id="@+id/treat_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_toEndOf="@id/three"
+                    android:text="@string/basal_prevent3"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@id/three"
+                    android:justificationMode="inter_word"
+                    tools:targetApi="o"/>
+
+                <View
+                    android:id="@+id/view_4"
+                    android:layout_width="1.5dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/three"
+                    android:layout_marginStart="35dp"
+                    android:background="@color/white"/>
+
+                <ImageView
+                    android:id="@+id/four"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/white_circle"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:layout_below="@id/view_4"/>
+
+                <TextView
+                    android:id="@+id/treat_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:paddingBottom="20dp"
+                    android:layout_toEndOf="@id/four"
+                    android:text="@string/basal_prevent4"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@id/four"
+                    android:justificationMode="inter_word"
+                    tools:targetApi="o"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/white_circle"
+                    android:src="@drawable/management"
+                    android:padding="12dp"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:textAlignment="textStart"
+                    android:gravity="center"
+                    android:background="@drawable/half_rounded2"
+                    android:paddingTop="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="8dp"
+                    android:paddingBottom="16dp"
+                    android:letterSpacing="0.02"
+                    android:text="@string/squa_management"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    tools:ignore="RtlCompat" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/squaa_management"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                android:justificationMode="inter_word"
+                tools:targetApi="o" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:id="@+id/one1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/white_circle"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:src="@drawable/coronavirus"/>
+
+                <TextView
+                    android:id="@+id/treat_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_toEndOf="@id/one1"
+                    android:text="@string/squaa_management1"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@id/one1"
+                    android:justificationMode="inter_word"
+                    tools:targetApi="o"/>
+
+                <View
+                    android:id="@+id/view_21"
+                    android:layout_width="1.5dp"
+                    android:layout_height="66dp"
+                    android:layout_below="@id/one1"
+                    android:layout_marginStart="35dp"
+                    android:background="@color/white"/>
+
+                <ImageView
+                    android:id="@+id/two1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/white_circle"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:layout_below="@id/view_21" />
+
+                <TextView
+                    android:id="@+id/treat_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_toEndOf="@id/two1"
+                    android:text="@string/squaa_management2"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@id/two1"
+                    android:justificationMode="inter_word"
+                    tools:targetApi="o"/>
+
+                <View
+                    android:id="@+id/view_31"
+                    android:layout_width="1.5dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/two1"
+                    android:layout_marginStart="35dp"
+                    android:background="@color/white"/>
+
+                <ImageView
+                    android:id="@+id/three1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/white_circle"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:layout_below="@id/view_31" />
+
+                <TextView
+                    android:id="@+id/treat_31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_toEndOf="@id/three1"
+                    android:text="@string/squaa_management3"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@id/three1"
+                    android:justificationMode="inter_word"
+                    tools:targetApi="o"/>
+
+                <View
+                    android:id="@+id/view_41"
+                    android:layout_width="1.5dp"
+                    android:layout_height="36dp"
+                    android:layout_below="@id/three1"
+                    android:layout_marginStart="35dp"
+                    android:background="@color/white"/>
+
+                <ImageView
+                    android:id="@+id/four1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/white_circle"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:layout_below="@id/view_41"/>
+
+                <TextView
+                    android:id="@+id/treat_41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:paddingBottom="10dp"
+                    android:layout_toEndOf="@id/four1"
+                    android:text="@string/squaa_management4"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@id/four1"
+                    android:justificationMode="inter_word"
+                    tools:targetApi="o"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/squaam_management"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                android:justificationMode="inter_word"
+                tools:targetApi="o" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:id="@+id/one11"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/white_circle"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:src="@drawable/coronavirus"/>
+
+                <TextView
+                    android:id="@+id/treat_111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_toEndOf="@id/one11"
+                    android:text="@string/squaam_management1"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@id/one11"
+                    android:justificationMode="inter_word"
+                    tools:targetApi="o"/>
+
+                <View
+                    android:id="@+id/view_211"
+                    android:layout_width="1.5dp"
+                    android:layout_height="36dp"
+                    android:layout_below="@id/one11"
+                    android:layout_marginStart="35dp"
+                    android:background="@color/white"/>
+
+                <ImageView
+                    android:id="@+id/two11"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/white_circle"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:layout_below="@id/view_211" />
+
+                <TextView
+                    android:id="@+id/treat_211"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_toEndOf="@id/two11"
+                    android:text="@string/squaam_management2"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@id/two11"
+                    android:justificationMode="inter_word"
+                    tools:targetApi="o"/>
+
+                <View
+                    android:id="@+id/view_311"
+                    android:layout_width="1.5dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/two11"
+                    android:layout_marginStart="35dp"
+                    android:background="@color/white"/>
+
+                <ImageView
+                    android:id="@+id/three11"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/white_circle"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:layout_below="@id/view_311" />
+
+                <TextView
+                    android:id="@+id/treat_311"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_toEndOf="@id/three11"
+                    android:text="@string/squaam_management3"
+                    android:textColor="@color/white"
+                    android:paddingBottom="10dp"
+                    android:layout_alignTop="@id/three11"
+                    android:justificationMode="inter_word"
+                    tools:targetApi="o"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/squaamo_management"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                android:justificationMode="inter_word"
+                tools:targetApi="o" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:id="@+id/one111"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/white_circle"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:src="@drawable/coronavirus"/>
+
+                <TextView
+                    android:id="@+id/treat_1111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_toEndOf="@id/one111"
+                    android:text="@string/squaamo_management1"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@id/one111"
+                    android:justificationMode="inter_word"
+                    tools:targetApi="o"/>
+
+                <View
+                    android:id="@+id/view_2111"
+                    android:layout_width="1.5dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/one111"
+                    android:layout_marginStart="35dp"
+                    android:background="@color/white"/>
+
+                <ImageView
+                    android:id="@+id/two111"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/white_circle"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:layout_below="@id/view_2111" />
+
+                <TextView
+                    android:id="@+id/treat_2111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_toEndOf="@id/two111"
+                    android:text="@string/squaamo_management2"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@id/two111"
+                    android:justificationMode="inter_word"
+                    tools:targetApi="o"/>
+
+                <View
+                    android:id="@+id/view_3111"
+                    android:layout_width="1.5dp"
+                    android:layout_height="36dp"
+                    android:layout_below="@id/two111"
+                    android:layout_marginStart="35dp"
+                    android:background="@color/white"/>
+
+                <ImageView
+                    android:id="@+id/three111"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/white_circle"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:layout_below="@id/view_3111" />
+
+                <TextView
+                    android:id="@+id/treat_3111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_toEndOf="@id/three111"
+                    android:text="@string/squaamo_management3"
+                    android:textColor="@color/white"
+                    android:paddingBottom="60dp"
+                    android:layout_alignTop="@id/three111"
+                    android:justificationMode="inter_word"
+                    tools:targetApi="o"/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
